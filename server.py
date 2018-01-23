@@ -53,7 +53,7 @@ class S(BaseHTTPRequestHandler):
         arguments = ['/opt/SoapUI/bin/testrunner.sh']
 
         if suite: 
-            arguments.append('-s"%s"' % suite[0])
+            arguments.append('-r -s"%s"' % suite[0])
 
         if option:
             for op in option:
