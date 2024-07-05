@@ -2,6 +2,9 @@
 
 > Docker container that houses a configurable version of SoapUI and runs test suites / cases
 
+Execute the following command in the repository root folder:
+docker build -t comapny/docker-soapui-runner .\
+
 How to Use
 ==========
 
